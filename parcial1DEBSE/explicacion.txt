@@ -1,0 +1,2 @@
+Este código conecta un ESP32 a Wi-Fi y a ThingSpeak para enviar datos de temperatura, humedad y presión de los sensores DHT22 y BMP280. Si la temperatura o humedad superan los umbrales (27°C y 60%), activa un buzzer como alarma. Los datos se actualizan en el canal de ThingSpeak cada 20 segundos.
+Las principales dificultades a este código es la conexión de la pantalla oled y el mostrar la información en ello
